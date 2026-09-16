@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace test
 {
-    internal class CashPayment : Program
+    internal class CashPayment : Payment
     {
         public override void Pay(double amount)
         {
